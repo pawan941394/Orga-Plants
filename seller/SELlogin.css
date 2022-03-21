@@ -1,0 +1,26 @@
+.fa,
+.fas {
+    font-weight: 900;
+    /* font-size: 18px !important; */
+    color: black !important;
+    margin-top: -8% !important;
+}
+
+label {
+    display: inline-block;
+    color: black;
+}
+
+@media only screen and (max-width:570px) {
+    /* .img-fluid {
+        max-width: 59%;
+        height: auto;
+        margin: auto;
+    } */
+    .smallwidth {
+        flex-shrink: 0;
+        max-width: 78%;
+        margin-top: var(--bs-gutter-y);
+        padding: 0px;
+    }
+}

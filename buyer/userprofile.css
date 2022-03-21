@@ -1,0 +1,60 @@
+.userProfile .form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.userProfile .profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.userProfile .profile-button:hover {
+    background: #682773
+}
+
+.userProfile .profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.userProfile .profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.userProfile .back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.userProfile .labels {
+    font-size: 11px
+}
+
+.userProfile .add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+.userProfile .labels {
+    font-size: 13px;
+    color: black;
+    font-weight: 400;
+}
+
+.profileSec {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: -2%;
+}
+
+.userProfile input[type=file] {
+    color: transparent;
+    width: 119px;
+    border-radius: 14px;
+    background: bisque;
+}

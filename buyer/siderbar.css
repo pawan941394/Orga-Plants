@@ -1,0 +1,76 @@
+.bi {
+    vertical-align: -0.125em;
+    pointer-events: none;
+    fill: currentColor;
+}
+
+.nav-pills .nav-link {
+    background: 0 0;
+    border: 0;
+    border-radius: 0.25rem;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.sidebars {
+    margin-top: 3%;
+    position: relative;
+}
+
+.sidebarsContent {
+    float: right;
+    width: 280px;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 13px;
+}
+
+.sidebarBtn img {
+    width: 9%;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.sidebarContent12 {
+    display: none;
+}
+
+@media only screen and (max-width:1220px) {}
+
+@media only screen and (max-width:980px) {
+    .sidebarBtn img {
+        width: 12%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .sidebarBtn img {
+        margin-left: 88%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .sidebarBtn img {
+        margin-left: 88%;
+    }
+}
